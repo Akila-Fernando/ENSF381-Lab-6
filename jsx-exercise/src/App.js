@@ -5,13 +5,13 @@ function App() {
 
   const date = new Date();
   const currentyear = date.getFullYear();
-  const isLoggedIn = False;
+  const isLoggedIn = false;
   return (
     <div>
-        <h1>ENSF-381: Full Stack Web Development</h1>;
+        <h1>ENSF-381: Full Stack Web Development</h1>
         <p>React Components</p>
         <p>{currentyear}</p>
-        {isLoggedIn === True? "Welcome Back!" : "Please Log in"}
+        {isLoggedIn === true? "Welcome Back!" : "Please Log in"}
     </div>
   );
 }
