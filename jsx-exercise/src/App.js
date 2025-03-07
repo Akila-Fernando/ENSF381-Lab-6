@@ -3,14 +3,15 @@ import './App.css';
 
 function App() {
 
-  const currentyear = Date()
-  console.log(currentyear)
+  const date = new Date();
+  const currentyear = date.getFullYear();
+  const isLoggedIn = False;
   return (
     <div>
         <h1>ENSF-381: Full Stack Web Development</h1>;
         <p>React Components</p>
-
-        <p>currentyear</p>
+        <p>{currentyear}</p>
+        {isLoggedIn === True? "Welcome Back!" : "Please Log in"}
     </div>
   );
 }
