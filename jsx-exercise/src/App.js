@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const currentyear = Date()
+  console.log(currentyear)
   return (
     <div>
-        const element = <h1>ENSF-381: Full Stack Web Development</h1>;
+        <h1>ENSF-381: Full Stack Web Development</h1>;
         <p>React Components</p>
+
+        <p>currentyear</p>
     </div>
   );
 }
